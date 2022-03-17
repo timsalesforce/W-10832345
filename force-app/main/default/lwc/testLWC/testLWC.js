@@ -1,8 +1,10 @@
 import { LightningElement } from 'lwc';
-import Label4 from '@salesforce/label/c.Label4';
+import Label1 from '@salesforce/label/c.Label1';
+// import Label2 from '@salesforce/label/c.Label2';
 
 export default class TestLWC extends LightningElement {
     connectedCallback() {
-        console.log(Label4);
+        console.log(Label1);
+        // console.log(Label2);
     }
 }
