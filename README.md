@@ -6,5 +6,5 @@
  - Now uncomment the lines in CustomLabels.labels-meta.xml
  - Also uncomment the lines in WithLabel.cls
  - Finally uncomment the lines in testLWC.js
- - Deploy again using `sfdx force:source:dploy -x package.xml`
+ - Deploy again using `sfdx force:source:deploy -x package.xml`
  - Observe that the deployment fails for the Class
